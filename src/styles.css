@@ -1,0 +1,22 @@
+:root { --bg:#0f172a; --panel:#111827; --accent:#22d3ee; --ok:#22c55e; --warn:#f59e0b; --err:#ef4444; }
+* { box-sizing:border-box; }
+html, body, #root { height:100%; margin:0; }
+body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, Cantarell, 'Helvetica Neue', Arial, 'Noto Sans', 'Apple Color Emoji','Segoe UI Emoji'; background:linear-gradient(180deg,#0b1020 0%, #0f172a 100%); color:#e5e7eb; }
+.wrapper { max-width: 960px; margin: 20px auto; padding: 16px; }
+.card { background: rgba(17,24,39,0.6); border:1px solid rgba(255,255,255,0.06); border-radius:16px; padding:16px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.hud { display:flex; gap:12px; flex-wrap:wrap; align-items:center; justify-content:space-between; }
+.badge { padding:6px 10px; border-radius:999px; background:#0b1325; border:1px solid rgba(255,255,255,0.07); font-weight:600; }
+.btns { display:flex; gap:8px; flex-wrap:wrap; }
+button { background:#111827; color:#e5e7eb; border:1px solid rgba(255,255,255,0.08); padding:10px 14px; border-radius:10px; font-weight:600; cursor:pointer; }
+button:hover { background:#0b1325; }
+button.primary { border-color: rgba(34,211,238,0.6); }
+.info { margin-top:12px; font-size:14px; opacity:0.9; line-height:1.5; }
+.canvas-wrap { position:relative; }
+canvas { width:100%; height:auto; display:block; border-radius:14px; border:1px solid rgba(255,255,255,0.08); background: #0a0f1f; }
+.overlay { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; pointer-events:none; text-align:center; padding:20px; }
+.overlay .panel { pointer-events:auto; background:rgba(10,15,31,0.8); border:1px solid rgba(255,255,255,0.07); border-radius:16px; padding:18px 20px; max-width: 520px; }
+.overlay h2 { margin:0 0 8px 0; }
+.kbd { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace; background:#0b1325; border:1px solid rgba(255,255,255,0.08); border-radius:6px; padding:2px 6px; }
+.level-select { display:flex; gap:8px; flex-wrap:wrap; }
+.level-select button { font-size:13px; padding:6px 10px; }
+.footer { margin-top:10px; font-size:12px; opacity:0.8; }
