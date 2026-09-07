@@ -20,3 +20,11 @@ canvas { width:100%; height:auto; display:block; border-radius:14px; border:1px 
 .level-select { display:flex; gap:8px; flex-wrap:wrap; }
 .level-select button { font-size:13px; padding:6px 10px; }
 .footer { margin-top:10px; font-size:12px; opacity:0.8; }
+
+/* ---------------- Footer de crédito ---------------- */
+.credit-footer { display:flex; justify-content:center; margin-top:20px; }
+.credit { display:inline-flex; align-items:center; gap:12px; max-width:100%; padding:10px 18px; border:1px solid rgba(255,255,255,0.07); border-radius:14px; background:#0d1220; box-shadow:0 6px 18px rgba(0,0,0,0.35); text-align:left; }
+.credit-icon { width:clamp(28px, 8vw, 34px); height:auto; flex:none; filter:drop-shadow(0 0 6px rgba(225,29,29,0.35)); }
+.credit-text { display:flex; flex-direction:column; line-height:1.25; min-width:0; }
+.credit-name { color:#f3f4f6; font-weight:700; font-size:clamp(13px, 3.6vw, 15px); }
+.credit-copy { color:#9ca3af; font-size:clamp(11px, 3vw, 12px); }

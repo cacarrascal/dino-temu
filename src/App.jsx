@@ -70,6 +70,24 @@ export default function App() {
             </button>
           ))}
         </div>
+
+        <footer className="credit-footer">
+          <div className="credit">
+            <img
+              src="/icon-carlos.png"
+              alt=""
+              aria-hidden="true"
+              className="credit-icon"
+              loading="lazy"
+            />
+            <div className="credit-text">
+              <span className="credit-name">Realizado por Carlos Carrascal</span>
+              <span className="credit-copy">
+                © {new Date().getFullYear()} Dino React
+              </span>
+            </div>
+          </div>
+        </footer>
       </div>
     </div>
   );
